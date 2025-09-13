@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-05T15:21:53 IST" name="Suite" finished-at="2025-09-05T15:22:00 IST" duration-ms="6591">
+  <suite started-at="2025-09-13T19:53:14 IST" name="Suite" finished-at="2025-09-13T19:53:20 IST" duration-ms="6224">
     <groups>
     </groups>
-    <test started-at="2025-09-05T15:21:53 IST" name="Test" finished-at="2025-09-05T15:22:00 IST" duration-ms="6591">
+    <test started-at="2025-09-13T19:53:14 IST" name="Test" finished-at="2025-09-13T19:53:20 IST" duration-ms="6224">
       <class name="Orangehrmtest.homepagetest">
-        <test-method signature="testlogout()[pri:0, instance:Orangehrmtest.homepagetest@385c9627]" started-at="2025-09-05T15:21:56 IST" name="testlogout" finished-at="2025-09-05T15:22:00 IST" duration-ms="3473" status="PASS">
+        <test-method signature="testlogout()[pri:0, instance:Orangehrmtest.homepagetest@385c9627]" started-at="2025-09-13T19:53:16 IST" name="testlogout" finished-at="2025-09-13T19:53:20 IST" duration-ms="3287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogout -->
       </class> <!-- Orangehrmtest.homepagetest -->
       <class name="Orangehrmtest.logintest">
-        <test-method is-config="true" signature="initdriver()[pri:0, instance:Orangehrmtest.logintest@2f4948e4]" started-at="2025-09-05T15:21:46 IST" name="initdriver" finished-at="2025-09-05T15:21:53 IST" duration-ms="7256" status="PASS">
+        <test-method is-config="true" signature="initdriver()[pri:0, instance:Orangehrmtest.logintest@2f4948e4]" started-at="2025-09-13T19:53:01 IST" name="initdriver" finished-at="2025-09-13T19:53:14 IST" duration-ms="12948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initdriver -->
-        <test-method signature="loginwithvalidetails()[pri:0, instance:Orangehrmtest.logintest@2f4948e4]" started-at="2025-09-05T15:21:53 IST" name="loginwithvalidetails" finished-at="2025-09-05T15:21:56 IST" duration-ms="2973" status="PASS">
+        <test-method signature="loginwithvalidetails()[pri:0, instance:Orangehrmtest.logintest@2f4948e4]" started-at="2025-09-13T19:53:14 IST" name="loginwithvalidetails" finished-at="2025-09-13T19:53:16 IST" duration-ms="2810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithvalidetails -->
