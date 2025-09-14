@@ -30,11 +30,11 @@ public class login{
 	
 	public void logintoapplication(String username , String password ) {
 		Usertxtname.sendKeys(username);
-		log.info("Username is entered in username text box");
+		log.info("Username is entered text box");
 		ExtentReportUtils.addStep("Username is entered");
 
 		Passtxtword.sendKeys(password);
-		log.info("Pssword is entered in Password text box");
+		log.info("Pssword is entered text box");
 		ExtentReportUtils.addStep("Password is entered");
 		
 		btn.click();
