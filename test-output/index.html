@@ -163,6 +163,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Organgehrmreport.ITestListenerDemo&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Orangehrmtest.logintest&quot;/&gt;
@@ -208,18 +211,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testlogout')
-data.setCell(0, 2, 'Orangehrmtest.homepagetest')
-data.setCell(0, 3, 3287);
+data.setCell(0, 1, 'loginwithvalidetails')
+data.setCell(0, 2, 'Orangehrmtest.logintest')
+data.setCell(0, 3, 3859);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginwithvalidetails')
-data.setCell(1, 2, 'Orangehrmtest.logintest')
-data.setCell(1, 3, 2810);
+data.setCell(1, 1, 'testlogout')
+data.setCell(1, 2, 'Orangehrmtest.homepagetest')
+data.setCell(1, 3, 1862);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -259,14 +262,14 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">loginwithvalidetails</span>
-                <span class="method-start">13054 ms</span>
+                <span class="method-start">7873 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Orangehrmtest.homepagetest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testlogout</span>
-                <span class="method-start">15883 ms</span>
+                <span class="method-start">11743 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

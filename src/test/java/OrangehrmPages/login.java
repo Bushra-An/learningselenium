@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Orangehrmtest.basetest;
+import Organgehrmreport.ExtentReportUtils;
 
 
 public class login{
@@ -30,12 +31,15 @@ public class login{
 	public void logintoapplication(String username , String password ) {
 		Usertxtname.sendKeys(username);
 		log.info("Username is entered in username text box");
+		ExtentReportUtils.addStep("Username is entered");
 
 		Passtxtword.sendKeys(password);
 		log.info("Pssword is entered in Password text box");
+		ExtentReportUtils.addStep("Password is entered");
 		
 		btn.click();
 		log.info("Login button is clicked.");
+		ExtentReportUtils.addStep("Login button is clicked");
 
 		
 	}

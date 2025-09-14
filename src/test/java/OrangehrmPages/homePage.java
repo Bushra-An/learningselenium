@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Orangehrmtest.basetest;
+import Organgehrmreport.ExtentReportUtils;
 
 public class homePage {
 
@@ -20,7 +21,9 @@ public class homePage {
 	
 	public void logoutfromapp() {
 		userprofile.click();
+		ExtentReportUtils.addStep("Userprofile is clicked");
 		logoutbtn.click();
+		ExtentReportUtils.addStep("logged out from application");
 	}
 
 }
